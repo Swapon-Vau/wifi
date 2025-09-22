@@ -1,18 +1,4 @@
 #!/usr/bin/env python3
-# wifi_scan.py - Non-root Wi-Fi discovery with Cyber 71 credit (No login required)
-
-
-import sys
-import ipaddress
-import argparse
-import subprocess
-import json
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import time
-from tabulate import tabulate
-
-
-# --- Credit Banner ---
 def banner():
 print("""
 
